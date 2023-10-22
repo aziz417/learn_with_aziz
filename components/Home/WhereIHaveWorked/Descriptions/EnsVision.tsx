@@ -5,11 +5,11 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function EnsVision() {
   const tasks = [
     {
-      text: "Worked on the front-end development in the web3 domain using Next.js, Alchemy, Tailwind CSS, Wagmi, Web3.js, Moralis, Ethers.js",
-      keywords: ["Alchemy", "Wagmi", "Web3.js", "Moralis", "Ethers.js"],
+      text: "Worked on the front-end development in the web3 domain using Next.js, TypeScript, JavaScript, Tailwind CSS, Bootstrap, PHP-Laravel",
+      keywords: ["Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "Bootstrap", "PHP-Laravel"],
     },
     {
-      text: "Conducted testing tasks to ensure website functionality and quality. Managed a large user base on the website",
+      text: "I made sure the website worked well and was good quality by testing it.I also took care of a lot of users on the website.",
       keywords: ["quality", "testing tasks", "user base"],
     },
     {
@@ -28,17 +28,17 @@ export default function EnsVision() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-AAsecondary">@ web3</span>
+            Software Engineer <span className="text-AAsecondary">Laravel-NextJs</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Dec 2022 - Jun 2023</span>
+          <span className="font-mono text-xs text-gray-500">Dec 2022 - Current</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             style={{ fontSize: "0.6rem" }}
             // set on click to open the website
-            onClick={() => window.open("https://www.ens.vision/", "_blank")}
+            onClick={() => window.open("https://mysoftheaven.com/", "_blank")}
           >
-            www.ens.vision
+            www.mysoftheaven.com
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
