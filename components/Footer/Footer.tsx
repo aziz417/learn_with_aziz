@@ -11,10 +11,9 @@ const ClickableIcon = props => {
   );
 };
 const IconsData = [
-  { href: "https://github.com/hktitof", Icon: GithubIcon },
+  { href: "https://github.com/aziz417", Icon: GithubIcon },
   { href: "https://www.linkedin.com/in/abdellatif-anaflous/", Icon: LinkedinIcon },
   { href: "https://www.instagram.com/xredme/", Icon: InstagramIcon },
-  { href: "https://www.youtube.com/@abdellatif_anaflous", Icon: YoutubeIcon },
 ];
 
 export default function Fotter(props: { githubUrl: string; hideSocialsInDesktop: boolean }) {
