@@ -9,7 +9,7 @@ export default function EnsVision() {
       keywords: ["Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "Bootstrap", "PHP-Laravel"],
     },
     {
-      text: "I made sure the website worked well and was good quality by testing it.I also took care of a lot of users on the website.",
+      text: "I made sure the website worked well and was good quality by testing it. I also took care of a lot of users on the website.",
       keywords: ["quality", "testing tasks", "user base"],
     },
     {
